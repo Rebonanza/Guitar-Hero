@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    transition: .3s;
+}
+main button:hover{
+    background-color: red;
+    cursor: pointer;
+    font-size: 25px;
+    color: white
+}   
+.kali, .tambah, .kurang{
+    position: fixed;
+    left: 467.2px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 0;
+}
+.kali { 
+    top: 172px;
+}
+.tambah{
+   top: 222px;
+}
+.kurang{
+    top: 272px;
+ }
+span{
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.string1, .string2, .string3{
+    border: 1px solid red; 
+    display: inline-block;
+    width: 454px;
+    height: 20px;
+    padding: 5px 3px 23px 0px; 
+}
+.span-yellow{
+    border: 1px solid gold
+}
+.span-green{
+    background-color: rgb(1, 187, 1);
+    border: 1px solid rgb(1, 187, 1);
+    color: white;
+}
+.span-red{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.grid-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid green;
+    align-content: start;
+    width: 490px;
+    padding: 10px;
+}
+.grid-item{
+    text-align: center;
+    border : 1px solid purple;
+    padding: 10px;
+}
+
+.score-board{
+    margin-top: 0px;
+    grid-column: 1/ span 3;
+    text-align: center;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: start;
+    width: 250px;
+    padding: 10px;
+}
+.item{
+    text-align: center;
+    border : 1px solid purple;
+    padding: 10px;
+}
+.container button{
+    width : 50px;
+    height: 30px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Guitar Hero</title>
+</head>
+<body>
+    <header>
+        <h1>Ceritanya Game</h1>
+    </header>
+    <div class="container">
+        <div class="item"><button type="button" class="start-btn">Start</button></div>
+        <div class="item"><button type="button" class="pause-btn">Pause</button></div>
+        <div class="item"><button type="button" class="reset-btn">Reset</button></div>
+    </div>
+    <main>
+    <div class="baris1">
+        <div class="string1" >
+        </div>
+        <button type="button" class="kali" onclick="buttonHandler(`multiple`, '*')">x</button>
+    </div> 
+    <div class="baris2" >
+        <div class="string2">
+        </div>
+            <button type="button" class="tambah" onclick="buttonHandler(`addition`, '+')" >+</button>
+        </div> 
+    <div class="baris3">
+        <div class="string3">
+        </div>
+        <button type="button" class="kurang" onclick="buttonHandler(`substract`, '-')">-</button>
+    </div> 
+</main>
+
+<div class="grid-container">
+    <h1 class="score-board">Score Board</h1>
+    <div class="grid-item">Current Number = <label class="curr-num">0</label></div>
+    <div class="grid-item">Target Number = <label class="target-num"></label></div>
+    <div class="grid-item">Total Score = <label class="score">0</label></div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
